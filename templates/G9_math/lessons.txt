@@ -22,3 +22,31 @@ x/3 = 12
 Then we get rid of the division by 3 by multiplying by 3 on both sides: (x/3) * 3 = (12) * 3
 x = 36
 
+
+
+Number Systems
+
+A number system is a way to represent and work with numbers. It includes different types of numbers we use in math.
+
+
+Here are the basic types of numbers in a number system:
+
+Natural numbers (N)
+    All positive integers (1, 2, 3, ...)
+    **DOESN'T** include 0
+Whole numbers (W)
+    All non-negative integers (0, 1, 2, 3...)
+    Includes 0
+Integers (I)
+    All integers (...-2, -1, 0, 1, 2...)
+Rational numbers (Q)
+    All numbers that can be written as fractions (1/2, 2/9...)
+Irrational numbers (sometimes written as P)
+    All real numbers that are NOT rational
+    CANNOT be written as fractions
+    Ex:
+        square root of 2 (1.41421356237...)
+        π (3.14159265359...)
+Real numbers
+    All rational AND irrational numbers
+    
