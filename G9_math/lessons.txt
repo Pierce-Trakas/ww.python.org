@@ -1,0 +1,24 @@
+Algebra
+
+Algebra is used everywhere in our everyday lives. It is useful to find unknown values in equations.
+Here is an example of a problem that you would use Algebra to solve:
+    James is 18cm taller than Omar. The sum of their heights equals 334cm. Identify both boys' heights.
+
+This may seem like a problem which you would need to plug in random values until both conditions are satisfied. However, with Algebra, you can figure out the correct value without having waste time trying different values over and over again.
+
+So how does it work? Algebra revolves around **variables**. They are represented by letters, most commonly x and y. You may have seen them before. A **variable** represents an unknown value, usually the value that we are looking for, or the answer. 
+For example, if we want to figure out what 5 + 3 is, we can placehold the answer using a variable: x. We write x = 5 + 3, and we will know that x = 8.
+However, this doesn't seem very useful, because we already know what 5 + 3 is. Instead a more useful usage of variables is in more complex equations.
+For example, let's say we want to find out what you'd need to add to 3 to obtain 5. So the question becomes: what + 3 = 5?
+This is the perfect usage of Algebra, as we can use a variable to represent the unknown value: x + 3 = 5
+To solve this equation, we can simply subtract 3 from both sides of the equation: (x + 3) - 3 = (5) - 3
+This gives: x + 0 = 2
+x = 2
+The way to solve any equation using Algebra is to **isolate the variable**, meaning to simplify the equation until the variable sits on its own on one side of the equation. If you isolate the variable, then you would know exactly the value of the variable.
+
+Another example: 5 + x/3 = 16
+We get rid of the 5 by subtracting 5 from both sides: (5 + x/3) - 5 = (17) - 5
+x/3 = 12
+Then we get rid of the division by 3 by multiplying by 3 on both sides: (x/3) * 3 = (12) * 3
+x = 36
+
