@@ -9,17 +9,13 @@ from flask import (Flask,
 app = Flask(__name__)
 app.secret_key = "hello"
 
-# @app.route('/', methods =['GET', 'POST'])
-# def index():
-#       if request.method == 'POST':
-#     lessonchoice = request.form['Index']
-#     if lessonchoice == "":
-#       return redirect(url_for(''))
-#     elif lessonchoice == "":
-#       return redirect(url_for(''))
-#     elif lessonchoice == "":
-#       return redirect(url_for(''))
-#     elif lessonchoice == "":
-#       return redirect(url_for(''))
-#   else:
-#     return render_template('index.html')
+@app.route('/', methods =['GET', 'POST'])
+def index():
+      if request.method == 'POST':
+    lessonchoice = request.form['Index']
+    if lessonchoice == "":
+      return redirect(url_for(''))
+    elif lessonchoice == "":
+      return redirect(url_for(''))
+  else:
+    return render_template('index.html')
