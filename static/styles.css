@@ -32,3 +32,11 @@ button:hover {
 body {
   background-color: azure;
 }
+
+hr{
+  margin-left:20%;
+  margin-right:20%;
+  border:0;
+  height:2px;
+  background-color:rgb(180, 230, 230)
+}
