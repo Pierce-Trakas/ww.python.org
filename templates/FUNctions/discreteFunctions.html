@@ -54,9 +54,12 @@
         </h3>
         <p>
             When expanding a binomial in the format (a+b)<sup>n</sup>, the triangle made by famous mathematician Blaise Pascal can be used to make the process easier.
-            To start, find the row of the triangle that corresponds to n's value (in the image below). If n is 0, then the answer will always be 1.
+            To start, find the row of the triangle that corresponds to n's value (example in the image below). If n is 0, then the answer will always be 1.
             Once you have the row, use the numbers in that row as the coefficients for each term.
-            
+            The first term should be a<sup>n</sup>, and the last should be b<sup>n</sup>.
+            Every consecutive term, a's exponent should decrease by one, but b's should increase.
+            Once you get every term (each structured as coefficient * a<sup>n</sup> * b<sup>n</sup>), simplify them as much as possible.
+            You have now expanded the binomial!
         </p>
         <img src = "">
     </body>
