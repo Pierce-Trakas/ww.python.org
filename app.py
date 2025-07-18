@@ -21,6 +21,8 @@ def exponentialFunctions():return render_template("/FUNctions/exponentialFunctio
 def expressions():return render_template("/FUNctions/expressions.html")
 @app.route("/FUNctions/trigonometricFunctions.html", methods=["GET", "POST"])
 def trigonometricFunctions():return render_template("/FUNctions/trigonometricFunctions.html")
+@app.route("/FUNctions/quadraticFunctions.html", methods=["GET", "POST"])
+def quadraticFunctions():return render_template("/FUNctions/quadraticFunctions.html")
 @app.route("/G9_math/algebra.html", methods=["GET", "POST"])
 def algebra():return render_template("/G9_math/algebra.html")
 @app.route("/G9_math/data-management.html", methods=["GET", "POST"])
