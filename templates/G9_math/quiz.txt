@@ -1,0 +1,98 @@
+Algebra:
+
+solve for x
+
+1) 1 + 3x = 16
+4
+3
+**5**
+7
+
+2) 4x + 3 = 7
+**1**
+2
+-2
+4
+
+3) x/3 + 6 = 4
+-1
+**-6**
+4
+2
+
+4) x - 8 = x/3
+**12**
+16
+6
+4
+
+5) 9 - x = 2x
+4
+-6
+-2
+**3**
+
+
+
+Number systems
+
+1) What is the symbol for Natural Numbers?
+**N**
+W
+I
+Q
+
+2) What does the symbol P sometimes represent?
+Rational Numbers
+**Irrational Numbers**
+Poetic Numbers
+Real Numbers
+
+3) What is the definition of Real Numbers?
+All positive numbers
+All numbers that can be represented as a fraction
+**All rational AND irrational numbers**
+None of these answers
+
+4) True or false: the Whole Numbers set includes 0
+**True**
+False
+
+5) Which of the following is an example of an irrational number?
+3.333333333333..
+**π**
+9/13
+Square root of 4
+
+
+Geometry
+
+1) Which of the following is false?
+All angles of a triangle add up to 180°
+The area of a square is the side length squared
+An acute angle is less than 90°
+**The Pythagorean Theorem states that two side lengths of a triangle must always add up to the third side length**
+
+2) What is the measurement of a right angle?
+45°
+180°
+**90°*
+360°
+
+3) What is the measurement of a straight angle?
+45°
+**180°**
+90°
+360°
+
+4) Calculate the third angle in a triangle if the other two angles are 44° and 47°
+**89°**
+79°
+99°
+109°
+
+5) Calculate the third angle in a triangle if the other two angles are 101° and 30°
+**49°**
+34°
+31°
+20°
