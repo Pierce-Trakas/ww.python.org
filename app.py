@@ -39,12 +39,26 @@ def linearSystems():return render_template("/Grade 10/linearSystems")
 def quadratics():return render_template("/Grade 10/quadratics")
 @app.route("/Grade 10/trigonometry.html")
 def trigonometry():return render_template("/Grade 10/trigonometry")
-"""@app.route("/Grade 10/analyticalGeometry.html")
-def analyticalGeometry():return render_template("/Grade 10/analyticalGeometry")
-@app.route("/Grade 10/analyticalGeometry.html")
-def analyticalGeometry():return render_template("/Grade 10/analyticalGeometry")
-@app.route("/Grade 10/analyticalGeometry.html")
-def analyticalGeometry():return render_template("/Grade 10/analyticalGeometry")"""
+@app.route('/FUNctions/discrete_functions_quiz.html', methods =['GET', 'POST'])
+def discreteFunctionsQuiz():
+    points=0
+    if request.method=="GET":return render_template("/FUNctions/discrete_functions_quiz.html", points=0)
+    elif request.method == 'POST':
+      for i in range(1, 6):
+        lessonchoice = request.form[f'q{i}']
+        if lessonchoice == "right":
+          points += 1
+      return render_template("/FUNctions/discrete_functions_quiz.html", points = points)
+@app.route('/FUNctions/exponential-quiz.html', methods =['GET', 'POST'])
+def exponentialQuiz():
+    points=0
+    if request.method=="GET":return render_template("/FUNctions/exponential-quiz.html", points=0)
+    elif request.method == 'POST':
+      for i in range(1, 5):
+        lessonchoice = request.form[f'q{i}']
+        if lessonchoice == "right":
+          points += 1
+      return render_template("/FUNctions/exponential-quiz.html", points = points)
 @app.route('/G9_math/algebra-quiz.html', methods =['GET', 'POST'])
 def algebraQuiz():
     points=0
@@ -54,6 +68,25 @@ def algebraQuiz():
         lessonchoice = request.form[f'q{i}']
         if lessonchoice == "right":
           points += 1
-      # return f"<h1>{points}/5</h1>"
       return render_template("/G9_math/algebra-quiz.html", points = points)
+@app.route('/G9_math/geometry_quiz.html', methods =['GET', 'POST'])
+def geometryQuiz():
+    points=0
+    if request.method=="GET":return render_template("/G9_math/geometry_quiz.html", points=0)
+    elif request.method == 'POST':
+      for i in range(1, 6):
+        lessonchoice = request.form[f'q{i}']
+        if lessonchoice == "right":
+          points += 1
+      return render_template("/G9_math/geometry_quiz.html", points = points)
+@app.route('/G9_math/number-systems-quiz.html', methods =['GET', 'POST'])
+def numberSystemsQuiz():
+    points=0
+    if request.method=="GET":return render_template("/G9_math/number-systems-quiz.html", points=0)
+    elif request.method == 'POST':
+      for i in range(1, 6):
+        lessonchoice = request.form[f'q{i}']
+        if lessonchoice == "right":
+          points += 1
+      return render_template("/G9_math/number-systems-quiz.html", points = points)
 if __name__=="__main__":app.run(port=8000, debug=True)
