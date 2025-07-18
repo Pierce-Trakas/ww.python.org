@@ -49,4 +49,50 @@ Irrational numbers (sometimes written as P)
         π (3.14159265359...)
 Real numbers
     All rational AND irrational numbers
-    
+
+
+
+
+
+Geometry
+
+
+Angles
+    Types of Angles:
+    Acute angle: less than 90°
+    Right angle: 90°
+    Obtuse angle: more than 90° and less than 180°
+    Straight angle: exactly 180°
+
+
+Triangles
+Types of Triangles
+    Acute triangle: all angles are acute
+    Right triangle: there is one right angle in the triangle
+    Obtuse triangle: there is one obtuse angle in the triangle
+    Equilateral triangle: all three sides of the triangle are the same length
+    Isosceles triangle: two of the sides of the triangle are the same length
+    Scalene triangle: all three sides of the triangle are different lengths
+
+Properties of triangles:
+    The sum of all three angles in a triangle is always 180°
+    The exterior angle of a triangle is always the sum of the other two interior angles
+    An equilateral triangle's angles are all 60°
+    The Pythagorean Theorem states that in a right triangle, the sum of the square of the two side lengths adjacent to the right angle is equal to the square of the third side length.
+    data:image/png;base64,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
+
+Area formulas
+    Square: side length * side length
+    Rectangle: width * height
+    Triangle: base * height / 2
+    Trapezoid: (base1 + base2) * height / 2
+    Circle: π * r^2
+
+Perimeter formulas
+    Square: side length * 4
+    Rectangle: (width + height) * 2
+    Triangle: sum of three side lengths
+    Trapezoid: sum of 4 side lengths
+    Circle: 2 * π * r
+
+Area & Perimeter Formulas
