@@ -9,13 +9,16 @@ from flask import (Flask,
 app = Flask(__name__)
 app.secret_key = "hello"
 
-# @app.route('/', methods =['GET', 'POST'])
-# def index():
-#       if request.method == 'POST':
-#     lessonchoice = request.form['Index']
-#     if lessonchoice == "":
-#       return redirect(url_for(''))
-#     elif lessonchoice == "":
-#       return redirect(url_for(''))
-#   else:
-#     return render_template('index.html')
+points = 0
+questionNumber = 0
+
+@app.route('G9_math/algebra-quiz.html', methods =['GET', 'POST'])
+def algebraQuiz():
+    if request.method == 'POST':
+      while questionNumber < 5:
+        lessonchoice = request.form['']
+        if lessonchoice == "wrong":
+          questionNumber += 1
+        elif lessonchoice == "right":
+          questionNumber += 1
+          points += 1
